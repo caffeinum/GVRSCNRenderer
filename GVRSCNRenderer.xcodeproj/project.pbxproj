@@ -7,24 +7,77 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		079719DB6C9E935950E88350 /* Pods_ARCardboardDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61C17BC64429D11B0DC2842A /* Pods_ARCardboardDemo.framework */; };
+		2B4BADCC25BDC2CA00CBEECA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BADCB25BDC2CA00CBEECA /* AppDelegate.swift */; };
+		2B4BADCE25BDC2CA00CBEECA /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4BADCD25BDC2CA00CBEECA /* art.scnassets */; };
+		2B4BADD025BDC2CA00CBEECA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4BADCF25BDC2CA00CBEECA /* ViewController.swift */; };
+		2B4BADD325BDC2CA00CBEECA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4BADD125BDC2CA00CBEECA /* Main.storyboard */; };
+		2B4BADD525BDC2CB00CBEECA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B4BADD425BDC2CB00CBEECA /* Assets.xcassets */; };
+		2B4BADD825BDC2CB00CBEECA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B4BADD625BDC2CB00CBEECA /* LaunchScreen.storyboard */; };
+		2B9ED50725BDC6D4003C5BAA /* GVRSCNRenderer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B00FCA1FF1485000993F05 /* GVRSCNRenderer.framework */; };
+		2B9ED50825BDC6D4003C5BAA /* GVRSCNRenderer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = E6B00FCA1FF1485000993F05 /* GVRSCNRenderer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D9D352A052DC9724043082F1 /* Pods_GVRSCNRenderer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7707DF08AE7BA1FF23850482 /* Pods_GVRSCNRenderer.framework */; };
 		E6B00FCF1FF1485000993F05 /* GVRSCNRenderer.h in Headers */ = {isa = PBXBuildFile; fileRef = E6B00FCD1FF1485000993F05 /* GVRSCNRenderer.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E6B00FD61FF1489D00993F05 /* GVRSCNRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B00FD51FF1489D00993F05 /* GVRSCNRenderer.swift */; };
 		E6B00FD81FF148AE00993F05 /* GVRSCNARTrackingRenderer.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6B00FD71FF148AE00993F05 /* GVRSCNARTrackingRenderer.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2B9ED50925BDC6D4003C5BAA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E6B00FC11FF1485000993F05 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E6B00FC91FF1485000993F05;
+			remoteInfo = GVRSCNRenderer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2B9ED50B25BDC6D5003C5BAA /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				2B9ED50825BDC6D4003C5BAA /* GVRSCNRenderer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		2B4BADC925BDC2CA00CBEECA /* ARCardboardDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARCardboardDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B4BADCB25BDC2CA00CBEECA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B4BADCD25BDC2CA00CBEECA /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		2B4BADCF25BDC2CA00CBEECA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B4BADD225BDC2CA00CBEECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B4BADD425BDC2CB00CBEECA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B4BADD725BDC2CB00CBEECA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B4BADD925BDC2CB00CBEECA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3BD9E32B420C1A4C68CB2110 /* Pods-GVRSCNRenderer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVRSCNRenderer.release.xcconfig"; path = "Pods/Target Support Files/Pods-GVRSCNRenderer/Pods-GVRSCNRenderer.release.xcconfig"; sourceTree = "<group>"; };
+		61C17BC64429D11B0DC2842A /* Pods_ARCardboardDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ARCardboardDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7707DF08AE7BA1FF23850482 /* Pods_GVRSCNRenderer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GVRSCNRenderer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C47153366BDEF1478345A211 /* Pods-ARCardboardDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardboardDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ARCardboardDemo/Pods-ARCardboardDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		DA20AD8B85CE8C0E856E71EE /* Pods-GVRSCNRenderer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GVRSCNRenderer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GVRSCNRenderer/Pods-GVRSCNRenderer.debug.xcconfig"; sourceTree = "<group>"; };
 		E6B00FCA1FF1485000993F05 /* GVRSCNRenderer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GVRSCNRenderer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E6B00FCD1FF1485000993F05 /* GVRSCNRenderer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GVRSCNRenderer.h; sourceTree = "<group>"; };
 		E6B00FCE1FF1485000993F05 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E6B00FD51FF1489D00993F05 /* GVRSCNRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GVRSCNRenderer.swift; sourceTree = "<group>"; };
 		E6B00FD71FF148AE00993F05 /* GVRSCNARTrackingRenderer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GVRSCNARTrackingRenderer.swift; sourceTree = "<group>"; };
+		FF224A0CCE023FB23D01EA44 /* Pods-ARCardboardDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ARCardboardDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-ARCardboardDemo/Pods-ARCardboardDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		2B4BADC625BDC2CA00CBEECA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B9ED50725BDC6D4003C5BAA /* GVRSCNRenderer.framework in Frameworks */,
+				079719DB6C9E935950E88350 /* Pods_ARCardboardDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E6B00FC61FF1485000993F05 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -36,10 +89,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B4BADCA25BDC2CA00CBEECA /* ARCardboardDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2B4BADCB25BDC2CA00CBEECA /* AppDelegate.swift */,
+				2B4BADCD25BDC2CA00CBEECA /* art.scnassets */,
+				2B4BADCF25BDC2CA00CBEECA /* ViewController.swift */,
+				2B4BADD125BDC2CA00CBEECA /* Main.storyboard */,
+				2B4BADD425BDC2CB00CBEECA /* Assets.xcassets */,
+				2B4BADD625BDC2CB00CBEECA /* LaunchScreen.storyboard */,
+				2B4BADD925BDC2CB00CBEECA /* Info.plist */,
+			);
+			path = ARCardboardDemo;
+			sourceTree = "<group>";
+		};
 		6F2562E59740985601F99582 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				7707DF08AE7BA1FF23850482 /* Pods_GVRSCNRenderer.framework */,
+				61C17BC64429D11B0DC2842A /* Pods_ARCardboardDemo.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -49,6 +117,8 @@
 			children = (
 				DA20AD8B85CE8C0E856E71EE /* Pods-GVRSCNRenderer.debug.xcconfig */,
 				3BD9E32B420C1A4C68CB2110 /* Pods-GVRSCNRenderer.release.xcconfig */,
+				C47153366BDEF1478345A211 /* Pods-ARCardboardDemo.debug.xcconfig */,
+				FF224A0CCE023FB23D01EA44 /* Pods-ARCardboardDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -57,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				E6B00FCC1FF1485000993F05 /* GVRSCNRenderer */,
+				2B4BADCA25BDC2CA00CBEECA /* ARCardboardDemo */,
 				E6B00FCB1FF1485000993F05 /* Products */,
 				703733C2CBD6EF09813A76A2 /* Pods */,
 				6F2562E59740985601F99582 /* Frameworks */,
@@ -67,6 +138,7 @@
 			isa = PBXGroup;
 			children = (
 				E6B00FCA1FF1485000993F05 /* GVRSCNRenderer.framework */,
+				2B4BADC925BDC2CA00CBEECA /* ARCardboardDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +168,28 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		2B4BADC825BDC2CA00CBEECA /* ARCardboardDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B4BADDC25BDC2CB00CBEECA /* Build configuration list for PBXNativeTarget "ARCardboardDemo" */;
+			buildPhases = (
+				2A6D7E1319A24E03FB8C6D46 /* [CP] Check Pods Manifest.lock */,
+				2B4BADC525BDC2CA00CBEECA /* Sources */,
+				2B4BADC625BDC2CA00CBEECA /* Frameworks */,
+				2B4BADC725BDC2CA00CBEECA /* Resources */,
+				CD53BA405454E20E0A5511D3 /* [CP] Embed Pods Frameworks */,
+				D922FCFA015A88C5F12C6E26 /* [CP] Copy Pods Resources */,
+				2B9ED50B25BDC6D5003C5BAA /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2B9ED50A25BDC6D4003C5BAA /* PBXTargetDependency */,
+			);
+			name = ARCardboardDemo;
+			productName = ARCardboardDemo;
+			productReference = 2B4BADC925BDC2CA00CBEECA /* ARCardboardDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
 		E6B00FC91FF1485000993F05 /* GVRSCNRenderer */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = E6B00FD21FF1485000993F05 /* Build configuration list for PBXNativeTarget "GVRSCNRenderer" */;
@@ -122,9 +216,14 @@
 		E6B00FC11FF1485000993F05 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 1240;
 				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = "Palle Klewitz";
 				TargetAttributes = {
+					2B4BADC825BDC2CA00CBEECA = {
+						CreatedOnToolsVersion = 12.4;
+						ProvisioningStyle = Automatic;
+					};
 					E6B00FC91FF1485000993F05 = {
 						CreatedOnToolsVersion = 9.2;
 						LastSwiftMigration = 0920;
@@ -138,6 +237,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
 			mainGroup = E6B00FC01FF1485000993F05;
 			productRefGroup = E6B00FCB1FF1485000993F05 /* Products */;
@@ -145,11 +245,23 @@
 			projectRoot = "";
 			targets = (
 				E6B00FC91FF1485000993F05 /* GVRSCNRenderer */,
+				2B4BADC825BDC2CA00CBEECA /* ARCardboardDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		2B4BADC725BDC2CA00CBEECA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4BADCE25BDC2CA00CBEECA /* art.scnassets in Resources */,
+				2B4BADD825BDC2CB00CBEECA /* LaunchScreen.storyboard in Resources */,
+				2B4BADD525BDC2CB00CBEECA /* Assets.xcassets in Resources */,
+				2B4BADD325BDC2CA00CBEECA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E6B00FC81FF1485000993F05 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -160,6 +272,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		2A6D7E1319A24E03FB8C6D46 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ARCardboardDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
 		7C637E564ADF43596B2CB1CC /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -193,16 +323,75 @@
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CardboardSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleKitCore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleKitDialogs.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleKitHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialRobotoFontLoader.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GVRSCNRenderer/Pods-GVRSCNRenderer-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		CD53BA405454E20E0A5511D3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARCardboardDemo/Pods-ARCardboardDemo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher-iOS14.3/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac-iOS14.3/GoogleToolboxForMac.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARCardboardDemo/Pods-ARCardboardDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D922FCFA015A88C5F12C6E26 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-ARCardboardDemo/Pods-ARCardboardDemo-resources.sh",
+				"${PODS_ROOT}/GVRSDK/Resources/CardboardSDK.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitCore.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitDialogs.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/GoogleKitHUD.bundle",
+				"${PODS_ROOT}/GVRSDK/Resources/MaterialRobotoFontLoader.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/CardboardSDK.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleKitCore.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleKitDialogs.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GoogleKitHUD.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MaterialRobotoFontLoader.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ARCardboardDemo/Pods-ARCardboardDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		2B4BADC525BDC2CA00CBEECA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B4BADD025BDC2CA00CBEECA /* ViewController.swift in Sources */,
+				2B4BADCC25BDC2CA00CBEECA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		E6B00FC51FF1485000993F05 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,7 +403,81 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		2B9ED50A25BDC6D4003C5BAA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E6B00FC91FF1485000993F05 /* GVRSCNRenderer */;
+			targetProxy = 2B9ED50925BDC6D4003C5BAA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2B4BADD125BDC2CA00CBEECA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4BADD225BDC2CA00CBEECA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B4BADD625BDC2CB00CBEECA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B4BADD725BDC2CB00CBEECA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
+		2B4BADDA25BDC2CB00CBEECA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C47153366BDEF1478345A211 /* Pods-ARCardboardDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AE86HBQRXP;
+				INFOPLIST_FILE = ARCardboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykhun.ARCardboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B4BADDB25BDC2CB00CBEECA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF224A0CCE023FB23D01EA44 /* Pods-ARCardboardDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = AE86HBQRXP;
+				INFOPLIST_FILE = ARCardboardDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykhun.ARCardboardDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		E6B00FD01FF1485000993F05 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -336,14 +599,14 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = BPTAR52LQF;
+				DEVELOPMENT_TEAM = AE86HBQRXP;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GVRSCNRenderer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.palleklewitz.GVRSCNRenderer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykhun.palleklewitz.GVRSCNRenderer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -360,14 +623,14 @@
 				CODE_SIGN_IDENTITY = "";
 				CODE_SIGN_STYLE = Automatic;
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = BPTAR52LQF;
+				DEVELOPMENT_TEAM = AE86HBQRXP;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = GVRSCNRenderer/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.palleklewitz.GVRSCNRenderer;
+				PRODUCT_BUNDLE_IDENTIFIER = com.bykhun.palleklewitz.GVRSCNRenderer;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 4.0;
@@ -378,6 +641,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		2B4BADDC25BDC2CB00CBEECA /* Build configuration list for PBXNativeTarget "ARCardboardDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B4BADDA25BDC2CB00CBEECA /* Debug */,
+				2B4BADDB25BDC2CB00CBEECA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		E6B00FC41FF1485000993F05 /* Build configuration list for PBXProject "GVRSCNRenderer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -8,3 +8,9 @@ target 'GVRSCNRenderer' do
   # Pods for GVRSCNRenderer
   pod 'GVRKit'
 end
+
+target 'ARCardboardDemo' do
+    use_frameworks!
+    pod 'GVRKit'
+    pod 'GVRSCNRenderer'
+end
